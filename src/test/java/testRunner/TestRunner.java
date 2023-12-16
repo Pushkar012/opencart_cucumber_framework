@@ -20,8 +20,8 @@ import org.junit.runner.RunWith;
                         "rerun:target/rerun.txt",    //Mandatory to capture failures
                 },
                 dryRun=false,
-                monochrome=true
-                //tags = "@sanity"	//Scenarios tagged with @sanity,
+                monochrome=true,
+                tags = "@sanity"	//Scenarios tagged with @sanity,
                 
         )
 
